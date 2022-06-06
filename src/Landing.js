@@ -36,7 +36,7 @@ function Landing() {
 <li><a href="https://datastudio.google.com/u/0/reporting/4cb333f9-39bf-448b-8d2d-f7ac3f44ad5d/page/FyZjC" class="active" target="_blank" style = {{color: theme.links}}>Stats</a></li>
 </ul></div>
 
-<div className="foot4" style = {{color: theme.links}}><ul> <b>Foundation</b>
+<div className="foot4"><ul> <b>Foundation</b>
 <li><a href="#" class="active" style = {{color: theme.links}}>Hiring</a></li>
 <li><a href="mailto:info@anetabtc.io" class="active" style = {{color: theme.links}}>Contact</a></li>
 
