@@ -47,18 +47,18 @@ function Mainpart() {
         <div className="textSh1"><h1>Join Our Community</h1><p>Chat with our team and community members as anetaBTC brings DeFi to Ergo and Cardano.</p></div>
         <div className="section1">
          <div className="guides1">
-        <div className="guide2" ><a href="https://ergodex.io" class="active"><img src={require('./static/img/twitter.svg').default} /></a>
+        <div className="guide2" ><a href="https://twitter.com/anetaBTC" class="active"><center><img src={require('./static/img/twitter.svg').default} /></center></a>
         <p><h2>Twitter</h2></p>
         <p className="socials">Latest project status, partnerships, and notifications!</p>
         </div>
-        <div className="guide2" ><a href="https://kyberswap.com/#/about" class="active"><img src={require('./static/img/tel1.svg').default} /> </a>
+        <div className="guide2" ><a href="https://t.me/anetaBTC" class="active"><center><img src={require('./static/img/tel1.svg').default} /> </center></a>
         <p><h2>Telegram</h2></p>
       <p className="socials">  Engage with anetaBTC community and get more information about our protocol.</p>
         </div>
-        <div className="guide2" ><a href="https://minswap.org/" class="active"> <img src={require('./static/img/discord.svg').default} /> </a>
+        <div className="guide2" ><a href="http://discord.gg/anetabtc'" class="active"> <center><img src={require('./static/img/discord.svg').default} /></center> </a>
         <p><h2>Discord</h2></p>
         <p className="socials">Discuss features, get support or contact devs.</p></div>
-        <div className="guide2" ><a href="https://minswap.org/" class="active"> <img src={require('./static/img/reddit.svg').default} style = {{filter: theme.imgconf1}} /> </a>
+        <div className="guide2" ><a href="https://medium.com/@anetaBTC" class="active"> <center><img src={require('./static/img/reddit.svg').default} style = {{filter: theme.imgconf1}} /> </center></a>
         <p><h2>Medium</h2></p>
         <p className="socials"> Read our Medium articles for in depth updates on our progress.</p></div>
          </div>

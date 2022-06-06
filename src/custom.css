@@ -712,10 +712,10 @@ height: 260px;
 line-height: 1.5;
 }
 
-.guide2 > a > img {
+.guide2 > a > center > img {
   width: 100px;
   height: 100px;
-  margin-left: 100px;
+
 }
 
 .guide2 > p > h2 {
@@ -932,6 +932,14 @@ font-family: "Avenir Next" !important;
 line-height: 1.5;
 
 }
+
+.guide2 > a > center > img {
+  width: 100px;
+  height: 100px;
+
+}
+
+
     div.textSh3 > h1{
       text-align: center;
       font-size: 38px;
