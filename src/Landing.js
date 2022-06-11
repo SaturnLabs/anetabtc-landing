@@ -3,7 +3,7 @@ import './App.css';
 import './custom.css';
 import {useContext} from 'react';
 import {ThemeContext} from './theme'
-import PPTX from './mining.pptx';
+import Thumb from './mining.pptx';
 
 function Landing() {
   const [{theme, isDark}, toggleTheme] = useContext(ThemeContext);
@@ -35,7 +35,7 @@ function Landing() {
 
 <li><a href="https://medium.com/@anetaBTC/roadmap-2-0-b2fe0c47eec6" class="active" target="_blank" style = {{color: theme.links}}>Roadmap</a></li>
 <li><a href="https://datastudio.google.com/u/0/reporting/4cb333f9-39bf-448b-8d2d-f7ac3f44ad5d/page/FyZjC" class="active" target="_blank" style = {{color: theme.links}}>Stats</a></li>
-<li><a href="{PPTX}" download="mining" style = {{color: theme.links}}>Mining</a></li>
+<li><a href="./mining.pptx" download style = {{color: theme.links}}>Mining</a></li>
 </ul></div>
 
 <div className="foot4"><ul> <b>Foundation</b>
