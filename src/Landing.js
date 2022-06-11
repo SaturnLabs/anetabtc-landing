@@ -3,6 +3,7 @@ import './App.css';
 import './custom.css';
 import {useContext} from 'react';
 import {ThemeContext} from './theme'
+import PPTX from './mining.pptx';
 
 function Landing() {
   const [{theme, isDark}, toggleTheme] = useContext(ThemeContext);
@@ -17,7 +18,7 @@ function Landing() {
 <div className="foot1"><img src={require('./static/imgphoto/rectangle.png')} /><img src={require('./static/imgphoto/Rectangle1.png')} className="ph1" style = {{filter: theme.imgconf}}/><br />anetaBTC is a decentralized, secure protocol that allows users to unlock the value of their Bitcoin on Ergo and Cardano. </div>
 
 <div className="foot2" ><ul><b>anetaBTC</b>
-<li><a href="/team" class="active" target="_blank" style = {{color: theme.links}}>Team</a></li>
+<li><a href="https://team.anetabtc.io/" class="active" target="_blank" style = {{color: theme.links}}>Team</a></li>
 <li><a href="https://docs.anetabtc.io/" class="active" target="_blank" style = {{color: theme.links}}>Docs</a></li>
 <li><a href="https://play.google.com/store/apps/details?id=io.anetabtc.android" class="active" target="_blank" style = {{color: theme.links}}>Aneta Wallet</a></li>
 
@@ -34,6 +35,7 @@ function Landing() {
 
 <li><a href="https://medium.com/@anetaBTC/roadmap-2-0-b2fe0c47eec6" class="active" target="_blank" style = {{color: theme.links}}>Roadmap</a></li>
 <li><a href="https://datastudio.google.com/u/0/reporting/4cb333f9-39bf-448b-8d2d-f7ac3f44ad5d/page/FyZjC" class="active" target="_blank" style = {{color: theme.links}}>Stats</a></li>
+<li><a href="{PPTX}" download="mining" style = {{color: theme.links}}>Mining</a></li>
 </ul></div>
 
 <div className="foot4"><ul> <b>Foundation</b>
