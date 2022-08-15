@@ -225,7 +225,7 @@ header .box2 > img{
   top: 25%;
   margin: 0 auto;
   margin-left: 0px;
-  margin-top: -100px;
+  margin-top: -70px;
 
 
 }
@@ -332,27 +332,15 @@ line-height: 1.7;
 }
 
 footer .foot1 > img {
-  width: 40px;
-  height: 40px;
-display: inline-block;
-padding-bottom: -20px;
+  width: 240px;
+  height: 55px;
+  margin-left: -10px;
+
 
 }
 
-footer .foot1 > .ph1  {
-  width: 170px;
-  height: 30px;
-  display: inline-block;
-margin-top: -50px;
 
-}
 
- footer .foot1 > .ph1  {
-  width: 170px;
-  display: inline-block;
-  filter: invert(0.9);
-
-}
 
 
 
@@ -697,7 +685,7 @@ margin-top: 50px;
 
 .guide > a > img {
   width: 340px;
-  height: 400px;
+  height: 340px;
 }
 
 .guide2 {

@@ -22,6 +22,9 @@ import moon from "./moon.png"
 import logo1 from "./anetaLogo.png"
 import logo2 from "./anetaLogoDark.png"
 
+import logoSun from "./static/imgphoto/logoday.png"
+import logoNight from "./static/imgphoto/logonight.png"
+
 const themes = {
   dark: {
     backgroundImage: `linear-gradient(to bottom, rgba(255,255,255,0), rgba(255, 255, 255, 255)), url(${background1})` ,
@@ -38,6 +41,7 @@ const themes = {
     sun: `${moon}`,
     logo: `${logo2}`,
     trans: '1s',
+    logoFoot: `${logoSun}`,
   },
   light: {
     backgroundImage: `linear-gradient(to bottom, transparent, #18191a),url(${background2})`,
@@ -54,6 +58,7 @@ const themes = {
     sun: `${sun}`,
     logo: `${logo1}`,
     trans: '1s',
+    logoFoot: `${logoNight}`,
   },
 }
 

@@ -15,7 +15,7 @@ function Landing() {
 
 <div className="grid_footer">
 
-<div className="foot1"><img src={require('./static/imgphoto/rectangle.png')} /><img src={require('./static/imgphoto/Rectangle1.png')} className="ph1" style = {{filter: theme.imgconf}}/><br />anetaBTC is a decentralized, secure protocol that allows users to unlock the value of their Bitcoin on Ergo and Cardano. </div>
+<div className="foot1"><img src={theme.logoFoot} /><br />anetaBTC is a decentralized, secure protocol that allows users to unlock the value of their Bitcoin on Ergo and Cardano. </div>
 
 <div className="foot2" ><ul><b>anetaBTC</b>
 <li><a href="https://team.anetabtc.io/" class="active" target="_blank" style = {{color: theme.links}}>Team</a></li>
