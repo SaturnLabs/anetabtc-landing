@@ -39,14 +39,14 @@ function Landing() {
 </ul></div>
 
 <div className="foot4"><ul> <b>Foundation</b>
-<li><a href="#" class="active" style = {{color: theme.links}}>Hiring</a></li>
+
 <li><a href="mailto:info@anetabtc.io" class="active" style = {{color: theme.links}}>Contact</a></li>
 
 </ul></div>
 
 <div className="foot5">
 <div className="imgconf">
-<a href="http://discord.gg/anetabtc" class="active" style = {{filter: theme.imgconf}}><img src={require('./static/icons/discord.svg').default} /></a>
+<a href="https://discord.com/invite/ScXG76dJXM" class="active" style = {{filter: theme.imgconf}}><img src={require('./static/icons/discord.svg').default} /></a>
 <a href="https://twitter.com/anetaBTC" class="active" style = {{filter: theme.imgconf}}><img src={require('./static/icons/twitter.svg').default} /></a>
 <a href="https://medium.com/@anetaBTC" class="active" style = {{filter: theme.imgconf}}><img src={require('./static/icons/medium.svg').default} /></a>
 <a href="https://t.me/anetaBTC" class="active" style = {{filter: theme.imgconf}}><img src={require('./static/icons/telegram.svg').default} /></a>

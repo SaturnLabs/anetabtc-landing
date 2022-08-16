@@ -26,7 +26,7 @@ const App = () => {
     <div className="box1"><h1> Decentralized,<br /> On-Chain Wrapped Bitcoin.</h1>
     <p style = {{color: theme.label}}>Fully On-chain Bitcoin on Ergo and Cardano.</p>
     <div className="imgSet">
-    <a href="http://discord.gg/anetabtc" class="active" style = {{filter: theme.imgconf1}}><img src={require("./static/imgphoto/discord.png")} /></a>
+    <a href="https://discord.com/invite/ScXG76dJXM" class="active" style = {{filter: theme.imgconf1}}><img src={require("./static/imgphoto/discord.png")} /></a>
     <a href="https://twitter.com/anetaBTC" class="active" style = {{filter: theme.imgconf1}}><img src={require('./static/imgphoto/twitter.png')} /></a>
     <a href="https://medium.com/@anetaBTC" class="active" style = {{filter: theme.imgconf1}}><img src={require('./static/imgphoto/medium.png')} /></a>
     <a href="https://t.me/anetaBTC" class="active" style = {{filter: theme.imgconf1}}><img src={require('./static/imgphoto/telegram.png')} /></a>

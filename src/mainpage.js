@@ -55,7 +55,7 @@ function Mainpart() {
         <p><h2>Telegram</h2></p>
       <p className="socials">  Engage with anetaBTC community and get more information about our protocol.</p>
         </div>
-        <div className="guide2" ><a href="http://discord.gg/anetabtc'" class="active"> <center><img src={require('./static/img/discord.svg').default} /></center> </a>
+        <div className="guide2" ><a href="https://discord.com/invite/ScXG76dJXM" class="active"> <center><img src={require('./static/img/discord.svg').default} /></center> </a>
         <p><h2>Discord</h2></p>
         <p className="socials">Discuss features, get support or contact devs.</p></div>
         <div className="guide2" ><a href="https://medium.com/@anetaBTC" class="active"> <center><img src={require('./static/img/reddit.svg').default} style = {{filter: theme.imgconf1}} /> </center></a>
